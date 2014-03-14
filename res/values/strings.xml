@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MBSWeatherTest</string>
+    <string name="add_city">Add city</string>
+    
+    <string name="search">Search</string>
+    <string name="city_not_found">City not found</string>
+    <string name="no_data">No data</string>
+    <string name="no_internet_connection">No internet connection</string>
+    
+    <string name="update">Update</string>
+    
+    <string name="city_name">City</string>
+    <string name="tempreture">Tempreture</string>
+    <string name="min_tempreture">Min tempreture</string>
+    <string name="max_tempreture">Max tempreture</string>
+    <string name="humidity">Humidity</string>
+    <string name="pressure">Pressure</string>
+    <string name="mmHg">mmHg</string>
+    <string name="wind">Wind</string>
+    <string name="ms">m/s</string>
+    <string name="cloudiness">Cloudiness</string>
+    <string name="morning_tempreture">Morning</string>
+    <string name="day_tempreture">Day</string>
+    <string name="evening_tempreture">Evening</string>
+    <string name="night_tempreture">Night</string>
+
+</resources>

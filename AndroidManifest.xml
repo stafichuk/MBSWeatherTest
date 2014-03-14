@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.gmail.sydym6.mbsweathertest"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="19" />
+    
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name="com.gmail.sydym6.mbsweathertest.MBSWeatherTestApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.AppCompat.Light.DarkActionBar" >
+        <activity
+            android:name="com.gmail.sydym6.mbsweathertest.activities.CityListActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.gmail.sydym6.mbsweathertest.activities.CityActivity"
+            android:label="@string/app_name"
+            android:parentActivityName="com.gmail.sydym6.mbsweathertest.activities.CityListActivity" >
+	        <meta-data
+	            android:name="android.support.PARENT_ACTIVITY"
+	            android:value="com.gmail.sydym6.mbsweathertest.activities.CityListActivity"/>
+        </activity>
+        <activity
+            android:name="com.gmail.sydym6.mbsweathertest.activities.AddCityActivity"
+            android:label="@string/app_name"
+            android:parentActivityName="com.gmail.sydym6.mbsweathertest.activities.CityListActivity" >
+	        <meta-data
+	            android:name="android.support.PARENT_ACTIVITY"
+	            android:value="com.gmail.sydym6.mbsweathertest.activities.CityListActivity"/>
+        </activity>
+    </application>
+
+</manifest>
